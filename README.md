@@ -1,5 +1,6 @@
 
 # IsDownTool
+![ex](screenshot.png)
 
 أداة بسيطة بلغة Bash تتحقق من حالة أي موقع إلكتروني (إذا كان شغال أو لا)  
 تعتمد على موقع [IsItDownRightNow](https://www.isitdownrightnow.com) وتحلل النتيجة عبر API خاص.
