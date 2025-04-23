@@ -1,5 +1,5 @@
 #!/bin/bash
-
+clear
 command -v curl >/dev/null 2>&1 || { echo >&2 "Error: curl is not installed. Aborting."; exit 1; }
 command -v jq >/dev/null 2>&1 || { echo >&2 "Error: jq is not installed. Aborting."; exit 1; }
 CYAN='\033[0;36m'
@@ -9,11 +9,11 @@ RED='\033[0;31m'
 NC='\033[0m'
 
 echo -e "${CYAN}======================${NC}"
-echo -e "${CYAN}  \033[1mIs Down? Tool\033[0m ${CYAN}${NC}"
+echo -e "${CYAN}  \033[1mIs Down? Tool, TG @cybersecurityTemDF - @DRR_R2\033[0m ${CYAN}${NC}"
 echo -e "${CYAN}======================${NC}"
 echo ""
 
-echo -e "${YELLOW}Enter website domain (e.g., example.com): ${NC}"
+echo -e "${YELLOW}Enter website domain (like chess.com): ${NC}"
 read dom
 
 echo -e "${CYAN}Checking ${dom}...${NC}"
